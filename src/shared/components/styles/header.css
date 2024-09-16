@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  background-color: #11001c;
+  height: 4rem; /* Increased height slightly for better spacing */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem; /* Added padding for better spacing */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5px;
+}
+
+.logo img {
+  height: 2.5rem; /* Adjust the height to fit the navbar */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 4px; /* Space between the two logos */
+  margin-top: -4px;
+}
+
+#img1{
+  margin-top: 8px;
+}
+
+
+
+.signup-btn {
+  margin-right: 1rem;
+  background-color: #000000;
+  color: #fefae0;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.signup-btn:hover {
+  background-color: #000000;
+  animation: pulse 0.5s ease-in-out;
+}
+
+.signup-btn:active {
+  transform: scale(0.9);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
